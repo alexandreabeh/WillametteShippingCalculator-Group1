@@ -6,3 +6,4 @@ install:
 - pip install simplejson
 script:
 - python -m unittest test_SaleItemUnitTest -v
+- python -m unittest test_BasketUnitTest -v
